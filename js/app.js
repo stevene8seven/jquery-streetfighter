@@ -20,7 +20,8 @@ $('.ryu').mouseenter(function() {
   })
 
   .mouseup(function() {
-    console.log('mouseup');
+    $('.ryu-throwing').hide();
+  	$('.ryu-ready').show();
     // ryu goes back to his ready position
 
 });
